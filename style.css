@@ -1,80 +1,83 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"); */
 
 * {
-
   font-family: "Montserrat", sans-serif;
 }
-.screen_container{
-  background-color:#f8f8f8;
+.screen_container {
+  background-color: #f8f8f8;
   border-radius: 10px;
 }
-.device{
-  height:500px;
-  width:vw;
-  display:flex;
+.device {
+  height: 500px;
+  width: vw;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.mainbody{
-background-color: rgb(179, 177, 177);
- height:60%;
-  width:200px;
-  padding:20px;
+#display {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.mainbody {
+  background-color: rgb(179, 177, 177);
+  height: 60%;
+  width: 200px;
+  padding: 20px;
   border-radius: 10px;
   /* background-color: red; */
 }
 
-.first{
-  display:flex;
+.first {
+  display: flex;
   justify-content: space-around;
-  margin-left:20px;
+  margin-left: 20px;
 }
-.second{
-  display:flex;
+.second {
+  display: flex;
   justify-content: space-around;
-  margin-left:25px;
+  margin-left: 25px;
 }
 
-.third{
-  display:flex;
+.third {
+  display: flex;
   justify-content: space-around;
-  margin-left:25px;
+  margin-left: 25px;
 }
-.fourth{
-  display:flex;
+.fourth {
+  display: flex;
   justify-content: space-around;
 }
-.one{
-  margin-left:31px;
+.one {
+  margin-left: 31px;
 }
-.two{
-  margin-left:2px;
+.two {
+  margin-left: 2px;
 }
-.three{
-  margin-left:1px;
+.three {
+  margin-left: 1px;
 }
-.dot{
-  margin-left:4px;
+.dot {
+  margin-left: 4px;
 }
-.fifth{
-  display:flex;
+.fifth {
+  display: flex;
   justify-content: space-between;
 }
-.zero{
-    margin-left:63px;
-
+.zero {
+  margin-left: 63px;
 }
-.equal{
-  margin-left:55px;
+.equal {
+  margin-left: 55px;
 }
-input{
-
+input {
   display: flex;
   background: none;
-  border:none;
-  width:50px;
-  height:50px;
+  border: none;
+  width: 50px;
+  height: 50px;
   font-size: 20px;
   font-weight: 20px;
 }
@@ -195,8 +198,6 @@ input {
   border: none;
   outline: none;
 } */
-
-
 
 /*
 .num_container {
